@@ -75,7 +75,7 @@ def traslate_english_to_korean_using_openAI(text):
 
 # DeepL 라이브러리를 이용해 텍스트를 한국어로 번역하는 함수
 def traslate_english_to_korean_using_deepL(text):   
-    auth_key = st.secrets["open-ai"] # Deepl 인증 키
+    auth_key = st.secrets["deelp"] # Deepl 인증 키
     translator = deepl.Translator(auth_key) # translator 객체를 생성
 
     result = translator.translate_text(text, target_lang="KO") # 번역 결과 객체를 result 변수에 할당
