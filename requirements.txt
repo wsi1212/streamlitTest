@@ -1,10 +1,7 @@
 openai
 streamlit
 deepl
-textwrap
 tiktoken
-os
+PyPDF2
 yt_dlp
-YouTubeTranscriptApi
-TextFormatter
-Path
+youtube_transcript_api
