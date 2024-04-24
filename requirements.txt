@@ -1,2 +1,10 @@
 openai
 streamlit
+deepl
+textwrap
+tiktoken
+os
+yt_dlp
+YouTubeTranscriptApi
+TextFormatter
+Path
