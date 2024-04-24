@@ -1,11 +1,12 @@
 from openai import OpenAI
 import textwrap
+import streamlit as st
 # import requests
 # from IPython.display import Image, display
 
 def translate_text_for_image(text):
     client = OpenAI(
-        api_key = "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",
+        api_key = st.secrets["open-ai"],
     )
 
     user_content = text

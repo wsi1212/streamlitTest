@@ -3,6 +3,7 @@
 
 from openai import OpenAI
 import yt_dlp
+import streamlit as st
 from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api.formatters import TextFormatter
 import os
