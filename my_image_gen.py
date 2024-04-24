@@ -26,7 +26,7 @@ def translate_text_for_image(text):
 
 def generate_text_for_image(text):
     client = OpenAI(
-        api_key = "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",
+        api_key=st.secrets["open-ai"],
     )
 
     user_content = text
@@ -47,7 +47,7 @@ def generate_text_for_image(text):
     
 def generate_image_from_text(text_for_image, image_num = 1, image_size = "512x512"):
     client = OpenAI(
-        api_key = "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",
+        api_key=st.secrets["open-ai"],
     )
 
     shorten_text_for_image = textwrap.shorten(text_for_image, 1000)
